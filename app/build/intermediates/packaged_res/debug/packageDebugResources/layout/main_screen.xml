@@ -1,0 +1,382 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:nestedScrollingEnabled="true"
+    tools:context="com.screens.language_app.MainScreen">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+    <Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/accent"
+        android:padding="24sp"
+        android:onClick="profile"
+        android:titleTextAppearance="@style/toolbar_style">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="54sp"
+                android:layout_height="54sp"
+                android:src="@drawable/empty_user" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5sp"
+                android:fontFamily="@font/fredoka_condensed_medium"
+                android:letterSpacing="0.01"
+                android:text="Hello, Emil"
+                android:textColor="@color/text_accent"
+                android:textSize="22sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5sp"
+                android:fontFamily="@font/fredoka_condensed_medium"
+                android:letterSpacing="0.01"
+                android:text="Are you ready for learning today?"
+                android:textColor="@color/text_accent_transparent"
+                android:textSize="17sp" />
+
+        </LinearLayout>
+    </Toolbar>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/background"
+        android:orientation="vertical"
+        android:weightSum="2">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="24sp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/fredoka_condensed_medium"
+                android:letterSpacing="0.01"
+                android:text="Top users"
+                android:textColor="@color/text_base"
+                android:textSize="24sp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10sp"
+                android:background="@drawable/usable_inactive"
+                android:orientation="horizontal"
+                android:padding="19sp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="24sp"
+                    android:text="👨🏻‍🎨"
+                    android:textColor="@color/text_base"
+                    android:textSize="36sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:fontFamily="@font/fredoka_condensed_medium"
+                    android:gravity="start"
+                    android:letterSpacing="0.01"
+                    android:text="Vincent van Gogh"
+                    android:textColor="@color/text_base"
+                    android:textSize="17sp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:fontFamily="@font/fredoka_condensed_medium"
+                    android:gravity="end"
+                    android:letterSpacing="0.01"
+                    android:text="12 points"
+                    android:textColor="@color/text_base"
+                    android:textSize="17sp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10sp"
+                android:background="@drawable/usable_inactive"
+                android:orientation="horizontal"
+                android:padding="19sp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="24sp"
+                    android:text="👨🏻‍🔬"
+                    android:textColor="@color/text_base"
+                    android:textSize="36sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:fontFamily="@font/fredoka_condensed_medium"
+                    android:gravity="start"
+                    android:letterSpacing="0.01"
+                    android:text="Dmitri Ivanovich\nMendeleev"
+                    android:textColor="@color/text_base"
+                    android:textSize="17sp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:fontFamily="@font/fredoka_condensed_medium"
+                    android:gravity="end"
+                    android:letterSpacing="0.01"
+                    android:text="10 points"
+                    android:textColor="@color/text_base"
+                    android:textSize="17sp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10sp"
+                android:background="@drawable/usable_inactive"
+                android:orientation="horizontal"
+                android:padding="19sp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="24sp"
+                    android:text="🧛🏻‍♂️"
+                    android:textColor="@color/text_base"
+                    android:textSize="36sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:fontFamily="@font/fredoka_condensed_medium"
+                    android:gravity="start"
+                    android:letterSpacing="0.01"
+                    android:text="Vlad Tepes"
+                    android:textColor="@color/text_base"
+                    android:textSize="17sp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:fontFamily="@font/fredoka_condensed_medium"
+                    android:gravity="end"
+                    android:letterSpacing="0.01"
+                    android:text="8 points"
+                    android:textColor="@color/text_base"
+                    android:textSize="17sp" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:padding="24sp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/fredoka_condensed_medium"
+                android:letterSpacing="0.01"
+                android:text="Available excersises"
+                android:textColor="@color/text_base"
+                android:textSize="24sp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="9sp"
+                android:layout_marginBottom="9sp"
+                android:orientation="horizontal"
+                android:weightSum="2">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="10sp"
+                    android:onClick="guess_animal"
+                    android:layout_weight="1"
+                    android:background="@drawable/usable_base"
+                    android:orientation="vertical"
+                    android:paddingLeft="20sp"
+                    android:paddingRight="20sp"
+                    android:paddingBottom="10sp">
+
+                    <TextView
+                        android:id="@+id/button_animal"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="🐻‍❄️"
+                        android:textAlignment="center"
+                        android:textColor="@color/text_base"
+                        android:textSize="90sp" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/fredoka_condensed_medium"
+                        android:letterSpacing="0.01"
+                        android:text="Guess the animal"
+                        android:textAlignment="center"
+                        android:textColor="@color/text_accent"
+                        android:textSize="13sp" />
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10sp"
+                    android:layout_weight="1"
+                    android:onClick="word_practice"
+                    android:background="@drawable/usable_red"
+                    android:orientation="vertical"
+                    android:paddingLeft="20sp"
+                    android:paddingRight="20sp"
+                    android:paddingBottom="10sp">
+
+                    <TextView
+                        android:id="@+id/button_word"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="✏️"
+                        android:textAlignment="center"
+                        android:textColor="@color/text_base"
+                        android:textSize="90sp" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/fredoka_condensed_medium"
+                        android:letterSpacing="0.01"
+                        android:text="Word practice"
+                        android:textAlignment="center"
+                        android:textColor="@color/text_accent"
+                        android:textSize="13sp" />
+
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="9sp"
+                android:orientation="horizontal"
+                android:weightSum="2">
+
+                <LinearLayout
+                    android:id="@+id/button_audition"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="10sp"
+                    android:layout_weight="1"
+                    android:onClick="audition"
+                    android:background="@drawable/usable_orange"
+                    android:orientation="vertical"
+                    android:paddingLeft="20sp"
+                    android:paddingRight="20sp"
+                    android:paddingBottom="10sp">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="🔊"
+                        android:textAlignment="center"
+                        android:textColor="@color/text_base"
+                        android:textSize="90sp" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/fredoka_condensed_medium"
+                        android:letterSpacing="0.01"
+                        android:text="Audition"
+                        android:textAlignment="center"
+                        android:textColor="@color/text_accent"
+                        android:textSize="13sp" />
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10sp"
+                    android:layout_weight="1"
+                    android:onClick="game"
+                    android:background="@drawable/usable_green"
+                    android:orientation="vertical"
+                    android:paddingLeft="20sp"
+                    android:paddingRight="20sp"
+                    android:paddingBottom="10sp">
+
+                    <TextView
+                        android:id="@+id/button_game"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="🎮"
+                        android:textAlignment="center"
+                        android:textColor="@color/text_base"
+                        android:textSize="90sp" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/fredoka_condensed_medium"
+                        android:letterSpacing="0.01"
+                        android:text="Game"
+                        android:textAlignment="center"
+                        android:textColor="@color/text_accent"
+                        android:textSize="13sp" />
+
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+    </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

@@ -1,0 +1,20 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.example.mobileapp-mergeDebugResources-43:/values-v29/values-v29.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\uta\\.gradle\\caches\\transforms-3\\3584acca89682b4827305937a31c43fb\\transformed\\core-splashscreen-1.0.1\\res\\values-v29\\values-v29.xml",
+                    "from": {
+                        "startLines": "2,7",
+                        "startColumns": "4,4",
+                        "startOffsets": "55,374",
+                        "endLines": "6,8",
+                        "endColumns": "12,12",
+                        "endOffsets": "369,464"
+                    }
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.screens.language_app.NoConnection"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    android:orientation="vertical">
+
+    <Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="54sp"
+        android:background="@color/accent"></Toolbar>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="540dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="😞"
+            android:textColor="@color/text_accent"
+            android:textAlignment="center"
+            android:textSize="150sp">
+
+        </TextView>
+
+        <TextView
+            android:layout_width="270sp"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/fredoka_condensed_medium"
+            android:text="No\ninternet connection"
+            android:textAlignment="center"
+            android:textColor="@color/text_base"
+            android:textFontWeight="500"
+            android:textSize="30sp"
+            android:textStyle="bold">
+
+        </TextView>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/button_check"
+        android:layout_width="327sp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="20sp"
+        android:background="@drawable/usable_base"
+        android:fontFamily="@font/fredoka_condensed_medium"
+        android:lineHeight="24sp"
+        android:padding="16sp"
+        android:text="Check again"
+        android:textAllCaps="false"
+        android:textColor="@color/text_accent"
+        android:textFontWeight="500"
+        android:textSize="20sp"
+        android:textStyle="bold">
+
+    </Button>
+
+</LinearLayout>

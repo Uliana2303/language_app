@@ -1,0 +1,98 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.example.mobileapp-mergeDebugResources-43:/values-night-v8/values-night-v8.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\uta\\Downloads\\language_app\\app\\src\\main\\res\\values-night\\strings.xml",
+                    "from": {
+                        "startLines": "1,4,5,3",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "16,140,225,67",
+                        "endColumns": "49,84,74,72",
+                        "endOffsets": "61,220,295,135"
+                    },
+                    "to": {
+                        "startLines": "20,21,22,23",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "893,943,1028,1103",
+                        "endColumns": "49,84,74,72",
+                        "endOffsets": "938,1023,1098,1171"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\uta\\.gradle\\caches\\transforms-3\\3584acca89682b4827305937a31c43fb\\transformed\\core-splashscreen-1.0.1\\res\\values-night-v8\\values-night-v8.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "85",
+                        "endOffsets": "136"
+                    },
+                    "to": {
+                        "startLines": "24",
+                        "startColumns": "4",
+                        "startOffsets": "1176",
+                        "endColumns": "85",
+                        "endOffsets": "1257"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\uta\\Downloads\\language_app\\app\\src\\main\\res\\values-night\\themes.xml",
+                    "from": {
+                        "startLines": "3,6,9",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "56,219,394",
+                        "endLines": "5,8,11",
+                        "endColumns": "12,12,12",
+                        "endOffsets": "214,389,560"
+                    },
+                    "to": {
+                        "startLines": "25,28,31",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "1262,1425,1600",
+                        "endLines": "27,30,33",
+                        "endColumns": "12,12,12",
+                        "endOffsets": "1420,1595,1766"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\uta\\Downloads\\language_app\\app\\src\\main\\res\\values-night\\styles.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "102",
+                        "endLines": "8",
+                        "endColumns": "12",
+                        "endOffsets": "442"
+                    },
+                    "to": {
+                        "startLines": "34",
+                        "startColumns": "4",
+                        "startOffsets": "1771",
+                        "endLines": "40",
+                        "endColumns": "12",
+                        "endOffsets": "2111"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\uta\\Downloads\\language_app\\app\\src\\main\\res\\values-night\\colors.xml",
+                    "from": {
+                        "startLines": "6,8,9,19,16,7,17,18,2,3,4,5,10,12,15,11,14,13",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "251,335,380,852,715,292,762,807,55,103,161,205,432,525,665,478,617,572",
+                        "endColumns": "40,44,51,40,46,42,44,44,47,57,43,45,45,46,49,46,47,44",
+                        "endOffsets": "287,375,427,888,757,330,802,847,98,156,200,246,473,567,710,520,660,612"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,96,141,193,234,281,324,369,414,462,520,564,610,656,703,753,800,848",
+                        "endColumns": "40,44,51,40,46,42,44,44,47,57,43,45,45,46,49,46,47,44",
+                        "endOffsets": "91,136,188,229,276,319,364,409,457,515,559,605,651,698,748,795,843,888"
+                    }
+                }
+            ]
+        }
+    ]
+}

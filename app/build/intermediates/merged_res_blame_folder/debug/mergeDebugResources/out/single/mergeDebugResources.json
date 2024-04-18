@@ -1,0 +1,230 @@
+[
+    {
+        "merged": "com.example.mobileapp-debug-45:/layout_register_password.xml.flat",
+        "source": "com.example.mobileapp-main-47:/layout/register_password.xml"
+    },
+    {
+        "merged": "com.example.mobileapp-debug-45:/layout_animal_incorrect.xml.flat",
+        "source": "com.example.mobileapp-main-47:/layout/animal_incorrect.xml"
+    },
+    {
+        "merged": "com.example.mobileapp-debug-45:/drawable_resize.png.flat",
+        "source": "com.example.mobileapp-main-47:/drawable/resize.png"
+    },
+    {
+        "merged": "com.example.mobileapp-debug-45:/drawable_usable_base.xml.flat",
+        "source": "com.example.mobileapp-main-47:/drawable/usable_base.xml"
+    },
+    {
+        "merged": "com.example.mobileapp-debug-45:/drawable_usable_orange.xml.flat",
+        "source": "com.example.mobileapp-main-47:/drawable/usable_orange.xml"
+    },
+    {
+        "merged": "com.example.mobileapp-debug-45:/drawable_user.png.flat",
+        "source": "com.example.mobileapp-main-47:/drawable/user.png"
+    },
+    {
+        "merged": "com.example.mobileapp-debug-45:/drawable_usable_light.xml.flat",
+        "source": "com.example.mobileapp-main-47:/drawable/usable_light.xml"
+    },
+    {
+        "merged": "com.example.mobileapp-debug-45:/layout_no_connection.xml.flat",
+        "source": "com.example.mobileapp-main-47:/layout/no_connection.xml"
+    },
+    {
+        "merged": "com.example.mobileapp-debug-45:/mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.mobileapp-main-47:/mipmap-xhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.example.mobileapp-debug-45:/drawable_onboarding_image_1.png.flat",
+        "source": "com.example.mobileapp-main-47:/drawable/onboarding_image_1.png"
+    },
+    {
+        "merged": "com.example.mobileapp-debug-45:/font_fredoka_variable_font_wdth_wght.ttf.flat",
+        "source": "com.example.mobileapp-main-47:/font/fredoka_variable_font_wdth_wght.ttf"
+    },
+    {
+        "merged": "com.example.mobileapp-debug-45:/mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.mobileapp-main-47:/mipmap-mdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.example.mobileapp-debug-45:/drawable_dots_1.png.flat",
+        "source": "com.example.mobileapp-main-47:/drawable/dots_1.png"
+    },
+    {
+        "merged": "com.example.mobileapp-debug-45:/mipmap-anydpi_ic_launcher.xml.flat",
+        "source": "com.example.mobileapp-main-47:/mipmap-anydpi/ic_launcher.xml"
+    },
+    {
+        "merged": "com.example.mobileapp-debug-45:/drawable_back_arrow.png.flat",
+        "source": "com.example.mobileapp-main-47:/drawable/back_arrow.png"
+    },
+    {
+        "merged": "com.example.mobileapp-debug-45:/drawable_login.png.flat",
+        "source": "com.example.mobileapp-main-47:/drawable/login.png"
+    },
+    {
+        "merged": "com.example.mobileapp-debug-45:/mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.mobileapp-main-47:/mipmap-hdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.example.mobileapp-debug-45:/mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.mobileapp-main-47:/mipmap-xxxhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.example.mobileapp-debug-45:/mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "com.example.mobileapp-main-47:/mipmap-xxhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.example.mobileapp-debug-45:/layout_audition.xml.flat",
+        "source": "com.example.mobileapp-main-47:/layout/audition.xml"
+    },
+    {
+        "merged": "com.example.mobileapp-debug-45:/drawable_usable_green.xml.flat",
+        "source": "com.example.mobileapp-main-47:/drawable/usable_green.xml"
+    },
+    {
+        "merged": "com.example.mobileapp-debug-45:/layout_profile.xml.flat",
+        "source": "com.example.mobileapp-main-47:/layout/profile.xml"
+    },
+    {
+        "merged": "com.example.mobileapp-debug-45:/layout_onboarding_1.xml.flat",
+        "source": "com.example.mobileapp-main-47:/layout/onboarding_1.xml"
+    },
+    {
+        "merged": "com.example.mobileapp-debug-45:/layout_animal_correct.xml.flat",
+        "source": "com.example.mobileapp-main-47:/layout/animal_correct.xml"
+    },
+    {
+        "merged": "com.example.mobileapp-debug-45:/layout_select_language.xml.flat",
+        "source": "com.example.mobileapp-main-47:/layout/select_language.xml"
+    },
+    {
+        "merged": "com.example.mobileapp-debug-45:/layout_login.xml.flat",
+        "source": "com.example.mobileapp-main-47:/layout/login.xml"
+    },
+    {
+        "merged": "com.example.mobileapp-debug-45:/drawable_app_icon.png.flat",
+        "source": "com.example.mobileapp-main-47:/drawable/app_icon.png"
+    },
+    {
+        "merged": "com.example.mobileapp-debug-45:/drawable_empty_user.png.flat",
+        "source": "com.example.mobileapp-main-47:/drawable/empty_user.png"
+    },
+    {
+        "merged": "com.example.mobileapp-debug-45:/layout_audition_incorrect.xml.flat",
+        "source": "com.example.mobileapp-main-47:/layout/audition_incorrect.xml"
+    },
+    {
+        "merged": "com.example.mobileapp-debug-45:/layout_animal_game.xml.flat",
+        "source": "com.example.mobileapp-main-47:/layout/animal_game.xml"
+    },
+    {
+        "merged": "com.example.mobileapp-debug-45:/drawable_onboarding_image_3.png.flat",
+        "source": "com.example.mobileapp-main-47:/drawable/onboarding_image_3.png"
+    },
+    {
+        "merged": "com.example.mobileapp-debug-45:/layout_splash.xml.flat",
+        "source": "com.example.mobileapp-main-47:/layout/splash.xml"
+    },
+    {
+        "merged": "com.example.mobileapp-debug-45:/drawable_dots_2.png.flat",
+        "source": "com.example.mobileapp-main-47:/drawable/dots_2.png"
+    },
+    {
+        "merged": "com.example.mobileapp-debug-45:/drawable_ic_launcher_foreground.xml.flat",
+        "source": "com.example.mobileapp-main-47:/drawable/ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "com.example.mobileapp-debug-45:/drawable_usable_inactive.xml.flat",
+        "source": "com.example.mobileapp-main-47:/drawable/usable_inactive.xml"
+    },
+    {
+        "merged": "com.example.mobileapp-debug-45:/layout_register.xml.flat",
+        "source": "com.example.mobileapp-main-47:/layout/register.xml"
+    },
+    {
+        "merged": "com.example.mobileapp-debug-45:/drawable_ic_launcher_background.xml.flat",
+        "source": "com.example.mobileapp-main-47:/drawable/ic_launcher_background.xml"
+    },
+    {
+        "merged": "com.example.mobileapp-debug-45:/drawable_usable_red.xml.flat",
+        "source": "com.example.mobileapp-main-47:/drawable/usable_red.xml"
+    },
+    {
+        "merged": "com.example.mobileapp-debug-45:/xml_data_extraction_rules.xml.flat",
+        "source": "com.example.mobileapp-main-47:/xml/data_extraction_rules.xml"
+    },
+    {
+        "merged": "com.example.mobileapp-debug-45:/layout_onboarding_3.xml.flat",
+        "source": "com.example.mobileapp-main-47:/layout/onboarding_3.xml"
+    },
+    {
+        "merged": "com.example.mobileapp-debug-45:/layout_word_game.xml.flat",
+        "source": "com.example.mobileapp-main-47:/layout/word_game.xml"
+    },
+    {
+        "merged": "com.example.mobileapp-debug-45:/layout_profile_resize.xml.flat",
+        "source": "com.example.mobileapp-main-47:/layout/profile_resize.xml"
+    },
+    {
+        "merged": "com.example.mobileapp-debug-45:/drawable_onboarding_image_2.png.flat",
+        "source": "com.example.mobileapp-main-47:/drawable/onboarding_image_2.png"
+    },
+    {
+        "merged": "com.example.mobileapp-debug-45:/mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "com.example.mobileapp-main-47:/mipmap-mdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.example.mobileapp-debug-45:/font_fredoka_condensed_medium.ttf.flat",
+        "source": "com.example.mobileapp-main-47:/font/fredoka_condensed_medium.ttf"
+    },
+    {
+        "merged": "com.example.mobileapp-debug-45:/drawable_dots_3.png.flat",
+        "source": "com.example.mobileapp-main-47:/drawable/dots_3.png"
+    },
+    {
+        "merged": "com.example.mobileapp-debug-45:/mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.mobileapp-main-47:/mipmap-xxhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.example.mobileapp-debug-45:/xml_backup_rules.xml.flat",
+        "source": "com.example.mobileapp-main-47:/xml/backup_rules.xml"
+    },
+    {
+        "merged": "com.example.mobileapp-debug-45:/font_fredoka_condensed_bold.ttf.flat",
+        "source": "com.example.mobileapp-main-47:/font/fredoka_condensed_bold.ttf"
+    },
+    {
+        "merged": "com.example.mobileapp-debug-45:/drawable_racoon.png.flat",
+        "source": "com.example.mobileapp-main-47:/drawable/racoon.png"
+    },
+    {
+        "merged": "com.example.mobileapp-debug-45:/mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "com.example.mobileapp-main-47:/mipmap-hdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.example.mobileapp-debug-45:/mipmap-anydpi_ic_launcher_round.xml.flat",
+        "source": "com.example.mobileapp-main-47:/mipmap-anydpi/ic_launcher_round.xml"
+    },
+    {
+        "merged": "com.example.mobileapp-debug-45:/mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "com.example.mobileapp-main-47:/mipmap-xhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.example.mobileapp-debug-45:/layout_onboarding_2.xml.flat",
+        "source": "com.example.mobileapp-main-47:/layout/onboarding_2.xml"
+    },
+    {
+        "merged": "com.example.mobileapp-debug-45:/layout_audition_correct.xml.flat",
+        "source": "com.example.mobileapp-main-47:/layout/audition_correct.xml"
+    },
+    {
+        "merged": "com.example.mobileapp-debug-45:/layout_main_screen.xml.flat",
+        "source": "com.example.mobileapp-main-47:/layout/main_screen.xml"
+    },
+    {
+        "merged": "com.example.mobileapp-debug-45:/mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "com.example.mobileapp-main-47:/mipmap-xxxhdpi/ic_launcher.webp"
+    }
+]

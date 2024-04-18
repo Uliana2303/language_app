@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.screens.language_app.Profile"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:background="@color/background"
+    android:layout_height="match_parent">
+    
+    <Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="24sp"
+        android:background="@color/accent"
+        android:titleTextAppearance="@style/toolbar_style">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+
+            <ImageView
+                android:layout_width="134sp"
+                android:layout_height="134sp"
+                android:src="@drawable/user"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Your profile, Emil"
+                android:textColor="@color/text_accent"
+                android:fontFamily="@font/fredoka_condensed_medium"
+                android:textSize="22sp"
+                android:letterSpacing="0.01"/>
+        </LinearLayout>
+
+    </Toolbar>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="bottom"
+        android:padding="24sp">
+
+        <Button
+            android:id="@+id/button_dark_theme"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/usable_base"
+            android:padding="10sp"
+            android:onClick="switch_theme"
+            android:text="Switch to Dark"
+            android:textColor="@color/text_accent"
+            android:textAllCaps="false"
+            android:textSize="20sp"
+            android:letterSpacing="0.01"
+            android:layout_marginBottom="14sp"/>
+        <Button
+            android:id="@+id/button_choose_language"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/usable_base"
+            android:padding="10sp"
+            android:onClick="change_language"
+            android:text="Change mother Language"
+            android:textColor="@color/text_accent"
+            android:textAllCaps="false"
+            android:textSize="20sp"
+            android:letterSpacing="0.01"
+            android:layout_marginBottom="14sp"/>
+        <Button
+            android:id="@+id/button_choose_image"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/usable_base"
+            android:padding="10sp"
+            android:text="Change your image"
+            android:onClick="change_image"
+            android:textColor="@color/text_accent"
+            android:textAllCaps="false"
+            android:textSize="20sp"
+            android:letterSpacing="0.01"
+            android:layout_marginBottom="14sp"/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/usable_inactive"
+            android:padding="10sp"
+            android:text="Logout"
+            android:textColor="@color/text_accent"
+            android:textAllCaps="false"
+            android:onClick="logout"
+            android:textSize="20sp"
+            android:letterSpacing="0.01"
+            android:layout_marginBottom="14sp"/>
+    </LinearLayout>
+
+
+</LinearLayout>
